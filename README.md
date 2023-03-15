@@ -1,0 +1,1 @@
+A compilation of C code implementations for core operating systems (OS) concepts utilizing Linux system programming through libraries like pthreads, 

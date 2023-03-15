@@ -1,3 +1,18 @@
+/*--------------------------------------------------------------------
+
+File: prime_decompose.c
+Author: Kemal Kilic
+
+
+Description:  A multithreaded pthreads program that outputs the decomposed
+              version of a given number (even and greater than 2) as a sum of
+              two prime numbers 
+              The number is taken as an argument input from the command line in 
+              <program_name> <even number greater than 2> format. 
+              
+
+-------------------------------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>

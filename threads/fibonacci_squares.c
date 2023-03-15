@@ -1,3 +1,24 @@
+/*--------------------------------------------------------------------
+
+File: fibonacci_squares.c
+Author: Kemal Kilic
+
+
+Description:  A a simple multithreaded pthreads program that outputs a list of
+              upper left corner coordinates for a sequence of squares
+              that grow in size in a Fibonacci series pattern, forming
+              a rectangle. It also outputs the upper-left corner coordinate
+              of the final rectangle. 
+
+
+              The number of squares is taken as an argument input from 
+              the command line in <program_name> <number of squares> format. 
+              
+              The separate thread function will calculate the final rectangle,
+              join the main thread and continue running to list the square info. 
+
+-------------------------------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -18,7 +39,7 @@ int main(int argc, char *argv[]) {
 
   /* making sure of input format*/
   if (argc != 2) {
-    printf("Use %s [even number greater than 2] format! \n", argv[0]);
+    printf("Use %s [number of squares] format! \n", argv[0]);
     exit(EXIT_FAILURE);
   }
 
