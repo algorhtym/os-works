@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 
 File: prime_decompose.c
-Author: Kemal Kilic
+Author: algorhtym
 
 
 Description:  A multithreaded pthreads program that outputs the decomposed

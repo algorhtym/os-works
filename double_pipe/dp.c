@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 
 File: dp.c
-Author: Kemal Kilic
+Author: algorhtym
 
 
 Description:  Double pipe program.  To pipe the output from the standard

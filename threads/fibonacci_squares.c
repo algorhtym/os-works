@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 
 File: fibonacci_squares.c
-Author: Kemal Kilic
+Author: algorhtym
 
 
 Description:  A a simple multithreaded pthreads program that outputs a list of
